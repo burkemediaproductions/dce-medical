@@ -346,7 +346,6 @@ textarea {
 
 .video-shell,
 .learn-video-placeholder {
-  aspect-ratio: 16 / 10;
   border-radius: calc(var(--radius) - 6px);
   overflow: hidden;
   background:
@@ -355,6 +354,9 @@ textarea {
   color: var(--white);
 }
 
+.video-shell {
+  aspect-ratio: 16 / 9;
+}
 .video-placeholder,
 .learn-video-placeholder {
   height: 100%;
